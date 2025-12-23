@@ -42,7 +42,7 @@ if st.sidebar.button("🔍 HITUNG & BANDINGKAN", type="primary"):
             f"{int(avg_history):,} Jiwa",
             delta=f"{int(selisih)} (Selisih)",
             delta_color="inverse"
-        )
+        ) 
     st.subheader(f"📊 Grafik: Tren 2019-2024 vs Prediksi")
     tahun_labels = ["2019", "2021", "2022", "2023", "2024"]
     labels = tahun_labels[:len(history_stunting)] + ["🔴 PREDIKSI BARU"]
